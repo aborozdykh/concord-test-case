@@ -16,4 +16,11 @@ public class UserRequestDto {
 
     @NotNull
     private int id;
+
+    @Override
+    public String toString() {
+        return "UserRequestDto{"
+                + "id=" + id
+                + '}';
+    }
 }

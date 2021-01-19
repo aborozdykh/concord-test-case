@@ -1,6 +1,5 @@
 package me.aborozdykh.concordtestcase.service;
 
-import java.util.Optional;
 import me.aborozdykh.concordtestcase.entity.User;
 
 /**

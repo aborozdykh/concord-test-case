@@ -13,4 +13,12 @@ import lombok.NoArgsConstructor;
 public class UserResponseDto {
     private String firstName;
     private String lastName;
+
+    @Override
+    public String toString() {
+        return "UserResponseDto{"
+                + "firstName='" + firstName + '\''
+                + ", lastName='" + lastName + '\''
+                + '}';
+    }
 }

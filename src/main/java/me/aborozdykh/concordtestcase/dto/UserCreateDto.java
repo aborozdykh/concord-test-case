@@ -19,4 +19,12 @@ public class UserCreateDto {
 
     @NotNull
     private String lastName;
+
+    @Override
+    public String toString() {
+        return "UserCreateDto{"
+                + "firstName='" + firstName + '\''
+                + ", lastName='" + lastName + '\''
+                + '}';
+    }
 }
